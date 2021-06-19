@@ -38,7 +38,7 @@ int main()
 		y.clear();
 		scanf("%d",&x);
 		memset(input,0,10);
-		scanf("%s",input);
+    	scanf("%s",input);
 		while(j < strlen(input))
 		{
 			y.push_back((int)(input[j] - '0'));
@@ -51,10 +51,7 @@ int main()
 		{
 			cout << y[j];
 		}
-		cout << endl;
-		cout<<"p is:"<< p << endl;
 		ans = superpow(x,y,p);
-		cout<<"ans is:" << ans << endl;
 		i++;
 	}
 	return 0;
